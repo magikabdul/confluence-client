@@ -156,6 +156,8 @@
                                 <serializationLibrary>jackson</serializationLibrary>
                                 <documentationProvider>none</documentationProvider>
                                 <useJakartaEe>true</useJakartaEe>
+                                <openApiNullable>false</openApiNullable>
+                                <allowUnicodeIdentifiers>true</allowUnicodeIdentifiers>
                             </configOptions>
 
                             <generateApis>false</generateApis>
