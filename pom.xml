@@ -150,6 +150,12 @@
 
                             <configOptions>
                                 <hideGenerationTimestamp>true</hideGenerationTimestamp>
+                                <useBeanValidation>true</useBeanValidation>
+                                <performBeanValidation>true</performBeanValidation>
+                                <library>webclient</library>
+                                <serializationLibrary>jackson</serializationLibrary>
+                                <documentationProvider>none</documentationProvider>
+                                <useJakartaEe>true</useJakartaEe>
                             </configOptions>
 
                             <generateApis>false</generateApis>
