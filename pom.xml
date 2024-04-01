@@ -146,7 +146,7 @@
                             <generatorName>java</generatorName>
                             <output>${project.basedir}</output>
                             <modelPackage>cloud.cholewa.confluence.model</modelPackage>
-
+                            <templateDirectory>${project.basedir}/swagger/templates</templateDirectory>
 
                             <configOptions>
                                 <hideGenerationTimestamp>true</hideGenerationTimestamp>
@@ -159,6 +159,10 @@
                                 <openApiNullable>false</openApiNullable>
                                 <allowUnicodeIdentifiers>true</allowUnicodeIdentifiers>
                             </configOptions>
+
+                            <additionalProperties>
+                                <additionalProperty>owner=Deutsche Lufthansa AG</additionalProperty>
+                            </additionalProperties>
 
                             <generateApis>false</generateApis>
                             <generateApiTests>false</generateApiTests>
