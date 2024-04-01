@@ -145,10 +145,11 @@
                             <inputSpec>${project.basedir}/swagger/confluence.json</inputSpec>
                             <generatorName>java</generatorName>
                             <output>${project.basedir}</output>
+                            <modelPackage>cloud.cholewa.confluence.model</modelPackage>
 
 
                             <configOptions>
-                                <sourceFolder>src/main/java/cloud/cholewa/confluence/model</sourceFolder>
+                                <hideGenerationTimestamp>true</hideGenerationTimestamp>
                             </configOptions>
 
                             <generateApis>false</generateApis>
